@@ -1,21 +1,20 @@
 # Streamlit and UI
-streamlit==1.28.1
-
+streamlit>=1.30.1
 # Data processing
-pandas==2.3.3
-numpy>=2.4.2
+pandas
+numpy
 
 # Web automation
-selenium==4.41.0
+selenium
 webdriver
-webdriver-manager==4.0.2
+webdriver-manager
 
 # Excel handling
-openpyxl==3.1.5
+openpyxl
 
 # Image processing
-Pillow==12.1.1
-pdf2image==1.17.0
+Pillow
+pdf2image
 
 # HTTP requests
-requests==2.32.5
+requests
