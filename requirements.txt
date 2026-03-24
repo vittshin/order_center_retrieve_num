@@ -8,6 +8,7 @@ numpy==1.24.3
 
 # Web automation
 selenium==4.15.2
+webdriver
 webdriver-manager==4.0.1
 
 # Excel handling
