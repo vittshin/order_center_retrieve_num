@@ -56,32 +56,32 @@ def main():
         default_data_path = r'D:\xinpingshun.1\Desktop\主体数据表.xlsx'
         data_file_path = st.text_input(
             "主体信息表路径:",
-            value=default_data_path,
-            help="请设置主体信息表Excel文件的路径"
+            value= "",
+            help="请设置主体信息表Excel文件的路径，如{default_data_path}"
         )
         
         # ChromeDriver路径
         default_driver_path = r"D:\xinpingshun.1\Desktop\chromedriver-win64\chromedriver.exe"
         driver_path = st.text_input(
             "ChromeDriver路径:",
-            value=default_driver_path,
-            help="请设置ChromeDriver可执行文件的路径"
+            value="",
+            help="请设置ChromeDriver可执行文件的路径，如{default_driver_path}"
         )
         
         # 输出文件路径
         default_output_path = r"D:/xinpingshun.1/Desktop/output.xlsx"
         output_path = st.text_input(
             "输出文件路径:",
-            value=default_output_path,
-            help="请设置输出Excel文件的路径"
+            value={},
+            help="请设置输出Excel文件的路径，如{default_output_path}"
         )
         
         # 图片保存路径
         default_image_path = r"D:/xinpingshun.1/Desktop/图片"
         image_path = st.text_input(
             "图片保存路径:",
-            value=default_image_path,
-            help="请设置图片保存的文件夹路径"
+            value={},
+            help="请设置图片保存的文件夹路径，如{default_image_path}"
         )
         
         st.markdown("---")
