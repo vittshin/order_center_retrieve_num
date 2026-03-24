@@ -72,7 +72,7 @@ def main():
         default_output_path = r"D:/xinpingshun.1/Desktop/output.xlsx"
         output_path = st.text_input(
             "输出文件路径:",
-            value={},
+            value="",
             help="请设置输出Excel文件的路径，如{default_output_path}"
         )
         
@@ -80,7 +80,7 @@ def main():
         default_image_path = r"D:/xinpingshun.1/Desktop/图片"
         image_path = st.text_input(
             "图片保存路径:",
-            value={},
+            value="",
             help="请设置图片保存的文件夹路径，如{default_image_path}"
         )
         
