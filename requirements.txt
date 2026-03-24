@@ -6,7 +6,6 @@ numpy
 
 # Web automation
 selenium
-webdriver
 webdriver-manager
 
 # Excel handling
