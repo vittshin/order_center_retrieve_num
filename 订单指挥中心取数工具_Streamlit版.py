@@ -9,7 +9,6 @@ import io
 from io import StringIO
 from io import BytesIO
 import base64
-from pdf2image import convert_from_bytes
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
