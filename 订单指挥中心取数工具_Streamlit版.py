@@ -126,22 +126,22 @@ def main():
         )
     
     # 处理逻辑
-    if start_button and order_input:
-        if not os.path.exists(data_file_path):
-            st.error(f"❌ 主体信息表文件不存在：{data_file_path}")
-            return
+    # if start_button and order_input:
+    #     if not os.path.exists(data_file_path):
+    #         st.error(f"❌ 主体信息表文件不存在：{data_file_path}")
+    #         return
         
-        if not os.path.exists(os.path.dirname(output_path)):
-            st.error(f"❌ 输出目录不存在：{os.path.dirname(output_path)}")
-            return
+    #     if not os.path.exists(os.path.dirname(output_path)):
+    #         st.error(f"❌ 输出目录不存在：{os.path.dirname(output_path)}")
+    #         return
         
-        if not os.path.exists(image_path):
-            try:
-                os.makedirs(image_path)
-                st.info(f"✅ 已创建图片保存目录：{image_path}")
-            except Exception as e:
-                st.error(f"❌ 无法创建图片保存目录：{str(e)}")
-                return
+    #     if not os.path.exists(image_path):
+    #         try:
+    #             os.makedirs(image_path)
+    #             st.info(f"✅ 已创建图片保存目录：{image_path}")
+    #         except Exception as e:
+    #             st.error(f"❌ 无法创建图片保存目录：{str(e)}")
+    #             return
         
         # 启动处理
         st.session_state.is_processing = True
